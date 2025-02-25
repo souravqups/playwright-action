@@ -9,7 +9,7 @@ const locator = locatorsPage; // Use imported object directly
 const data = allData; // Use imported object directly
 
 Given("Open Browser and Visit Website", async function () {
-  browser = await chromium.launch({ headless: false }); // Change to `true` for CI/CD
+  browser = await chromium.launch({ headless: true }); // Change to `true` for CI/CD
   const context = await browser.newContext();
   page = await context.newPage();
   await page.goto(data.orange_url);

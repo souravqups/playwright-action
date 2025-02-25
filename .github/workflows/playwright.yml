@@ -61,5 +61,5 @@ jobs:
 
 
       - name: Generate Playwright Report
-        run: npx playwright test --reporter=html
+        run: npx playwright test --reporter=html --config=playwright.config.js
 
