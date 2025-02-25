@@ -1,0 +1,705 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-configuration",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify The Configuration",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3999501999
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457549399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3316520799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 906312399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Go to configuration",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4091805299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Click on email configuration",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4583295200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Write the email name",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2043632300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Setup the email configuration",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2052041600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338522799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-subscription",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify the Subscription",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3482697100
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 915894599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3761865799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 858464199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Go to configuration for email subscription",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2071709800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Click on email subscription",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2454844199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Click on leave application",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2063760600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308864800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-module",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify the Module",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3558826000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 907828000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3553026299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810173300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Go configuration for module",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2056653599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Click on module",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2464103800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Change mobile configuration",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050023999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Setup the Module",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4056150500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293126299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-orangehrm-end-to-end",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open OrangeHRM End to End",
+    "tags": [],
+    "uri": "tests\\features\\Configuration.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-organization-button-&-and-check-info",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify The Organization Button & and Check Info",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3576616000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474479200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3304275699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 890794299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Go to organization",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4064556600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Check organization info",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4009552299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281789999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-orangehrm-end-to-end",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open OrangeHRM End to End",
+    "tags": [],
+    "uri": "tests\\features\\Organization.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-admin-&-find-the-admin-name-in-admin-panel",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify admin & find the admin name in admin panel",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3717173699
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 899450899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3586825899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 940301800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Enter the admin name searching",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 866114600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Now search the admin",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70074999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests\\stepDefinitions\\stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283175799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-orangehrm-end-to-end",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open OrangeHRM End to End",
+    "tags": [],
+    "uri": "tests\\features\\admin.feature"
+  }
+]

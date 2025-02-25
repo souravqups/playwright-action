@@ -34,10 +34,12 @@ on: [push, pull_request]
 
 jobs:
   test:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        user: actions/setup-node@v3
 
       - name: Install dependencies
         run: npm install
