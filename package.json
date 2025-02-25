@@ -2,7 +2,10 @@
   "name": "playwright-project-sourav",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx cucumber-js",
+    "playwright-test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
