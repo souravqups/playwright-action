@@ -57,7 +57,8 @@ jobs:
       #     retention-days: 7  # Keeps the report for 7 days  
 
       - name: Run Cucumber Tests
-        run: npx cucumber-js --format @cucumber/pretty-formatter
+        run: npx cucumber-js --format progress
+
 
       - name: Generate Playwright Report
         run: npx playwright test --reporter=html
